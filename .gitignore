@@ -1,0 +1,55 @@
+# Local files
+compile/Makedefs
+compile/.defs
+compile/.vers_num
+compile/version
+compile/xinu.map
+compile/xinu
+compile/xinu.bin
+compile/xinu.boot
+compile/xinu.x86.boot
+compile/.wav.wav
+config/lex.yy.c
+config/y.tab.c
+config/conf.h
+config/conf.c
+include/conf.h
+system/conf.c
+TAGS
+
+# binaries
+config/config
+compile/uboot-tool/mkimage
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
